@@ -1,0 +1,12 @@
+mypy
+wheel
+twisted
+pytz
+pyyaml
+sqlalchemy
+mysqlclient
+pyopenssl
+service_identity
+PyCryptodome
+inflection
+coloredlogs

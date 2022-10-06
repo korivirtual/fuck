@@ -1,0 +1,44 @@
+server:
+  hostname: "localhost"
+  allow_any_keychip: True
+  allow_default_keychip: True
+  name: "MegAime"
+  develop: True
+  logs: "log"
+  
+title:
+  hostname: "localhost"
+  loglevel: "info"
+
+database:
+  host: "localhost"
+  username: "aime"
+  password: "aime"
+  name: "aime"
+  port: 3306
+  type: "mysql"
+  sha2_password: False
+  loglevel: "info"
+
+frontend:
+  enable: False
+  port: 8080
+  https: False
+  loglevel: "info"
+  ssl_key: "cert/front.key"
+  ssl_cert: "cert/front.key"
+
+allnet:
+  loglevel: "info"
+  ota_delivery: False
+  ota_config_folder: "deliver/ini"
+  ota_content_folder: "deliver/content"
+
+billing:
+  loglevel: "info"  
+  ssl_key: "cert/server.key"
+  ssl_cert: "cert/server.pem"
+
+aimedb:
+  loglevel: "info"
+  key: ""

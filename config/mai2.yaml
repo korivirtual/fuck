@@ -1,0 +1,4 @@
+server:
+  enable: True
+  port: 9004
+  loglevel: "info"

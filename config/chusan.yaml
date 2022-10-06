@@ -1,0 +1,4 @@
+server:
+  enabled: True
+  port: 9006
+  loglevel: "info"

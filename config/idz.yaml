@@ -1,0 +1,22 @@
+server:
+  enable: True
+  loglevel: "info"
+  port: 10000
+
+ports:
+  userdb_http: 10002
+  
+  match_tcp: 10003
+  match_udp_snd: 10004
+  match_udp_rcv: 10005
+
+  tag_match_tcp: 10006
+  tag_match_udp_snd: 10007
+  tag_match_udp_rcv: 10008
+  
+  event_tcp: 10009
+  screenshot_tcp: 10010
+  echo1_udp: 10011
+  echo2_udp: 10012
+  news_udp: 10013
+  error_udp: 10014

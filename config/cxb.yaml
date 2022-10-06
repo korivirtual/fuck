@@ -1,0 +1,7 @@
+server:
+  hostname: "localhost"
+  enable: False
+  port: 443
+  loglevel: "info"
+  ssl_key: "cert/title.key"
+  ssl_cert: "cert/title.crt"

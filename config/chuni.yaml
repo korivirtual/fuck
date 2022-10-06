@@ -1,0 +1,4 @@
+server:
+  enable: True
+  port: 9001
+  loglevel: "info"

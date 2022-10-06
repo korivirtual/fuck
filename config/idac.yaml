@@ -1,0 +1,12 @@
+server:
+  enabled: True
+  loglevel: "info"
+  ssl: False
+  ssl_key: "cert/idac.key"
+  ssl_cert: "cert/idac.crt"
+
+ports:
+  main: 9009
+  matching: 20001
+  echo1: 20002
+  echo2: 20003
